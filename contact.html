@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+</head>
+<body> 
+    <body style="background-color: darkcyan;"
+    <FORM>
+    <h3>Contact us</h3>
+   
+    <label for="name"><strong> Name:</strong></label>
+    <input type="text" id="fname" name="fname" value="Enter Your Name"><br>
+    <br>
+    <label for="Email"><strong> Email:</strong></label>
+    <input type="Email" id="Email" name="Email" value="Enter Your Email"><br>
+    <br>
+
+    <label for="phone"><STRong>Number:</STRong></label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" value="Enter Your Number">
+    <br>
+    <br>
+   <label><strong>Gender:</strong></label>
+    <label for="male">Male</label>
+  <input type="radio" id="male" name="gender" value="male">
+  
+  <label for="female">Female</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <br>
+  <br>
+  <label for="subject"><strong>Subject:</strong></label><br>
+        <input type="text" id="subject" name="subject" placeholder="Subject of your message" required><br><br>
+        <label for="message"><strong>Message:</strong></label><br>
+        <textarea id="message" name="message" placeholder="Write your message here" rows="5" required></textarea><br><br>
+        <br>
+        <input type="Submit" value="Submit">
+    </FORM>
+</body>
+</html>
